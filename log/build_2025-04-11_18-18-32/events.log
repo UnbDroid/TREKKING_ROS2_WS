@@ -1,0 +1,559 @@
+[0.000000] (-) TimerEvent: {}
+[0.000247] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.000426] (-) JobUnselected: {'identifier': 'trekking'}
+[0.000702] (rf2o_laser_odometry) JobQueued: {'identifier': 'rf2o_laser_odometry', 'dependencies': OrderedDict()}
+[0.000813] (rf2o_laser_odometry) JobStarted: {'identifier': 'rf2o_laser_odometry'}
+[0.012553] (rf2o_laser_odometry) JobProgress: {'identifier': 'rf2o_laser_odometry', 'progress': 'cmake'}
+[0.012930] (rf2o_laser_odometry) Command: {'cmd': ['/usr/bin/cmake', '/home/caldo/Projects/trekking_test_ws/src/rf2o_laser_odometry', '-DCMAKE_INSTALL_PREFIX=/home/caldo/Projects/trekking_test_ws/install/rf2o_laser_odometry'], 'cwd': '/home/caldo/Projects/trekking_test_ws/build/rf2o_laser_odometry', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'HISTFILESIZE': '2147450879', 'MAIL': '/var/spool/mail/caldo', 'GHOSTTY_RESOURCES_DIR': '/usr/share/ghostty', 'USER': 'caldo', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'STARSHIP_SHELL': 'fish', 'HOSTNAME': 'cachyos', 'XDG_SESSION_TYPE': 'wayland', 'IDF_TOOLS_INSTALL_CMD': '/home/caldo/Projects/esp_ubuntu/esp-idf/install.sh', 'XDG_CACHE_HOME': '/home/caldo/.cache', 'SHLVL': '4', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'LESS': '-R', 'MOTD_SHOWN': 'pam', 'HOME': '/home/caldo', 'TERMINFO': '/usr/share/terminfo', 'OLDPWD': '/home/caldo/Projects/trekking_test_ws/src', 'TERM_PROGRAM_VERSION': '1.1.3-arch1.1', 'DESKTOP_SESSION': 'gnome', 'LSCOLORS': 'Gxfxcxdxdxegedabagacad', 'ROS_PYTHON_VERSION': '3', 'PAGER': 'less', 'PS1': '\\n\\[\\e[90;1m\\][\\[\\e[0;34m\\]\\@\\[\\e[90;1m\\]]-\\[\\e[90;1m\\][\\[\\e[0;32m\\]\\u\\[\\e[0;33m\\]@\\[\\e[0;32m\\]\\h\\[\\e[90;1m\\]]-\\[\\e[90;1m\\][\\[\\e[0;35m\\]\\w\\[\\e[90;1m\\]]-\\n\\[\\e[39m\\]$', 'MANAGERPID': '2825', 'LC_CTYPE': 'C.UTF-8', 'DISTROBOX_ENTER_PATH': '/usr/bin/distrobox-enter', 'SYSTEMD_EXEC_PID': '3063', 'XDG_STATE_HOME': '/home/caldo/.local/state', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'container': 'podman', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4510', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'OPENOCD_SCRIPTS': '/home/caldo/.espressif/tools/openocd-esp32/v0.12.0-esp32-20230921/openocd-esp32/share/openocd/scripts', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'caldo', 'OSH': '/home/caldo/.oh-my-bash', 'JOURNAL_STREAM': '9:43766', '_': '/home/caldo/.espressif/python_env/idf5.2_py3.12_env/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'TERMINFO_DIRS': '/usr/share/terminfo:/run/host/usr/share/terminfo', 'USERNAME': 'caldo', 'TERM': 'xterm-ghostty', 'GHOSTTY_SHELL_INTEGRATION_NO_SUDO': '1', 'IDF_DEACTIVATE_FILE_PATH': '/tmp/tmptnyim7baidf_25468', 'IDF_PATH': '/home/caldo/Projects/esp_ubuntu/esp-idf', 'PATH': '/home/caldo/Projects/esp_ubuntu/esp-idf/components/espcoredump:/home/caldo/Projects/esp_ubuntu/esp-idf/components/partition_table:/home/caldo/Projects/esp_ubuntu/esp-idf/components/app_update:/home/caldo/.espressif/tools/xtensa-esp-elf-gdb/12.1_20231023/xtensa-esp-elf-gdb/bin:/home/caldo/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin:/home/caldo/.espressif/tools/esp32ulp-elf/2.35_20220830/esp32ulp-elf/bin:/home/caldo/.espressif/tools/openocd-esp32/v0.12.0-esp32-20230921/openocd-esp32/bin:/home/caldo/.espressif/tools/xtensa-esp-elf-gdb/12.1_20231023/xtensa-esp-elf-gdb/bin:/home/caldo/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin:/home/caldo/.espressif/tools/esp32ulp-elf/2.35_20220830/esp32ulp-elf/bin:/home/caldo/.espressif/tools/openocd-esp32/v0.12.0-esp32-20230921/openocd-esp32/bin:/home/caldo/.espressif/python_env/idf5.2_py3.12_env/bin:/home/caldo/Projects/esp_ubuntu/esp-idf/tools:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/bin', 'SESSION_MANAGER': 'local/cachyos:@/tmp/.ICE-unix/2917,unix/cachyos:/tmp/.ICE-unix/2917', 'GDM_LANG': 'en_US.UTF-8', 'INVOCATION_ID': '8eff539b304c44699a7e51ff7202c8f3', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'C.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'HISTSIZE': '2147450879', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'GNOME', 'LC_TELEPHONE': 'C.UTF-8', 'XDG_DATA_HOME': '/home/caldo/.local/share', 'XDG_CONFIG_HOME': '/home/caldo/.config', 'XDG_SESSION_DESKTOP': 'gnome', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.B4OS42', 'ESP_IDF_VERSION': '5.2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'TERM_PROGRAM': 'ghostty', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/usr/bin/bash', 'GHOSTTY_BIN_DIR': '/usr/bin', 'LC_NAME': 'C.UTF-8', 'IDF_PYTHON_ENV_PATH': '/home/caldo/.espressif/python_env/idf5.2_py3.12_env', 'GDMSESSION': 'gnome', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'IDF_TOOLS_EXPORT_CMD': '/home/caldo/Projects/esp_ubuntu/esp-idf/export.sh', 'LC_IDENTIFICATION': 'C.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/caldo/Projects/trekking_test_ws/build/rf2o_laser_odometry', 'CONTAINER_ID': 'ros2', 'XDG_CONFIG_DIRS': '/etc/xdg', 'VIRTUAL_ENV_DISABLE_PROMPT': '1', 'XDG_DATA_DIRS': '/home/caldo/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/usr/local/share:/usr/share', 'STARSHIP_SESSION_KEY': '2097112695193622', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'ESP_ROM_ELF_DIR': '/home/caldo/.espressif/tools/esp-rom-elfs/20230320/', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.100036] (-) TimerEvent: {}
+[0.104656] (rf2o_laser_odometry) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.171857] (rf2o_laser_odometry) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.196624] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200127] (-) TimerEvent: {}
+[0.296809] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.300188] (-) TimerEvent: {}
+[0.308318] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.309142] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.311052] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.321738] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400244] (-) TimerEvent: {}
+[0.432475] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.445439] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.445701] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.446412] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.452339] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.500408] (-) TimerEvent: {}
+[0.600769] (-) TimerEvent: {}
+[0.612879] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found Python3: /home/caldo/.espressif/python_env/idf5.2_py3.12_env/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.700893] (-) TimerEvent: {}
+[0.784351] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.800980] (-) TimerEvent: {}
+[0.872970] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.899790] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.901048] (-) TimerEvent: {}
+[0.932499] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.969344] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.001143] (-) TimerEvent: {}
+[1.101358] (-) TimerEvent: {}
+[1.112894] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.119181] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.201452] (-) TimerEvent: {}
+[1.233231] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.265245] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.293217] (rf2o_laser_odometry) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.301627] (-) TimerEvent: {}
+[1.402120] (-) TimerEvent: {}
+[1.420866] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.447564] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[1.475881] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.36.9 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)\n'}
+[1.502211] (-) TimerEvent: {}
+[1.514102] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[1.515729] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.515838] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.602293] (-) TimerEvent: {}
+[1.702499] (-) TimerEvent: {}
+[1.758342] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.796706] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[1.802583] (-) TimerEvent: {}
+[1.860214] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0")  \n'}
+[1.902703] (-) TimerEvent: {}
+[1.978790] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Configuring done (2.0s)\n'}
+[2.001518] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.003271] (-) TimerEvent: {}
+[2.013049] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Build files have been written to: /home/caldo/Projects/trekking_test_ws/build/rf2o_laser_odometry\n'}
+[2.027072] (rf2o_laser_odometry) CommandEnded: {'returncode': 0}
+[2.027555] (rf2o_laser_odometry) JobProgress: {'identifier': 'rf2o_laser_odometry', 'progress': 'build'}
+[2.028031] (rf2o_laser_odometry) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/caldo/Projects/trekking_test_ws/build/rf2o_laser_odometry', '--', '-j8', '-l8'], 'cwd': '/home/caldo/Projects/trekking_test_ws/build/rf2o_laser_odometry', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'HISTFILESIZE': '2147450879', 'MAIL': '/var/spool/mail/caldo', 'GHOSTTY_RESOURCES_DIR': '/usr/share/ghostty', 'USER': 'caldo', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'STARSHIP_SHELL': 'fish', 'HOSTNAME': 'cachyos', 'XDG_SESSION_TYPE': 'wayland', 'IDF_TOOLS_INSTALL_CMD': '/home/caldo/Projects/esp_ubuntu/esp-idf/install.sh', 'XDG_CACHE_HOME': '/home/caldo/.cache', 'SHLVL': '4', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'LESS': '-R', 'MOTD_SHOWN': 'pam', 'HOME': '/home/caldo', 'TERMINFO': '/usr/share/terminfo', 'OLDPWD': '/home/caldo/Projects/trekking_test_ws/src', 'TERM_PROGRAM_VERSION': '1.1.3-arch1.1', 'DESKTOP_SESSION': 'gnome', 'LSCOLORS': 'Gxfxcxdxdxegedabagacad', 'ROS_PYTHON_VERSION': '3', 'PAGER': 'less', 'PS1': '\\n\\[\\e[90;1m\\][\\[\\e[0;34m\\]\\@\\[\\e[90;1m\\]]-\\[\\e[90;1m\\][\\[\\e[0;32m\\]\\u\\[\\e[0;33m\\]@\\[\\e[0;32m\\]\\h\\[\\e[90;1m\\]]-\\[\\e[90;1m\\][\\[\\e[0;35m\\]\\w\\[\\e[90;1m\\]]-\\n\\[\\e[39m\\]$', 'MANAGERPID': '2825', 'LC_CTYPE': 'C.UTF-8', 'DISTROBOX_ENTER_PATH': '/usr/bin/distrobox-enter', 'SYSTEMD_EXEC_PID': '3063', 'XDG_STATE_HOME': '/home/caldo/.local/state', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'container': 'podman', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4510', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'OPENOCD_SCRIPTS': '/home/caldo/.espressif/tools/openocd-esp32/v0.12.0-esp32-20230921/openocd-esp32/share/openocd/scripts', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'caldo', 'OSH': '/home/caldo/.oh-my-bash', 'JOURNAL_STREAM': '9:43766', '_': '/home/caldo/.espressif/python_env/idf5.2_py3.12_env/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'TERMINFO_DIRS': '/usr/share/terminfo:/run/host/usr/share/terminfo', 'USERNAME': 'caldo', 'TERM': 'xterm-ghostty', 'GHOSTTY_SHELL_INTEGRATION_NO_SUDO': '1', 'IDF_DEACTIVATE_FILE_PATH': '/tmp/tmptnyim7baidf_25468', 'IDF_PATH': '/home/caldo/Projects/esp_ubuntu/esp-idf', 'PATH': '/home/caldo/Projects/esp_ubuntu/esp-idf/components/espcoredump:/home/caldo/Projects/esp_ubuntu/esp-idf/components/partition_table:/home/caldo/Projects/esp_ubuntu/esp-idf/components/app_update:/home/caldo/.espressif/tools/xtensa-esp-elf-gdb/12.1_20231023/xtensa-esp-elf-gdb/bin:/home/caldo/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin:/home/caldo/.espressif/tools/esp32ulp-elf/2.35_20220830/esp32ulp-elf/bin:/home/caldo/.espressif/tools/openocd-esp32/v0.12.0-esp32-20230921/openocd-esp32/bin:/home/caldo/.espressif/tools/xtensa-esp-elf-gdb/12.1_20231023/xtensa-esp-elf-gdb/bin:/home/caldo/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin:/home/caldo/.espressif/tools/esp32ulp-elf/2.35_20220830/esp32ulp-elf/bin:/home/caldo/.espressif/tools/openocd-esp32/v0.12.0-esp32-20230921/openocd-esp32/bin:/home/caldo/.espressif/python_env/idf5.2_py3.12_env/bin:/home/caldo/Projects/esp_ubuntu/esp-idf/tools:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/bin', 'SESSION_MANAGER': 'local/cachyos:@/tmp/.ICE-unix/2917,unix/cachyos:/tmp/.ICE-unix/2917', 'GDM_LANG': 'en_US.UTF-8', 'INVOCATION_ID': '8eff539b304c44699a7e51ff7202c8f3', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'C.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'HISTSIZE': '2147450879', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'GNOME', 'LC_TELEPHONE': 'C.UTF-8', 'XDG_DATA_HOME': '/home/caldo/.local/share', 'XDG_CONFIG_HOME': '/home/caldo/.config', 'XDG_SESSION_DESKTOP': 'gnome', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.B4OS42', 'ESP_IDF_VERSION': '5.2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'TERM_PROGRAM': 'ghostty', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/usr/bin/bash', 'GHOSTTY_BIN_DIR': '/usr/bin', 'LC_NAME': 'C.UTF-8', 'IDF_PYTHON_ENV_PATH': '/home/caldo/.espressif/python_env/idf5.2_py3.12_env', 'GDMSESSION': 'gnome', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'IDF_TOOLS_EXPORT_CMD': '/home/caldo/Projects/esp_ubuntu/esp-idf/export.sh', 'LC_IDENTIFICATION': 'C.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/caldo/Projects/trekking_test_ws/build/rf2o_laser_odometry', 'CONTAINER_ID': 'ros2', 'XDG_CONFIG_DIRS': '/etc/xdg', 'VIRTUAL_ENV_DISABLE_PROMPT': '1', 'XDG_DATA_DIRS': '/home/caldo/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/usr/local/share:/usr/share', 'STARSHIP_SESSION_KEY': '2097112695193622', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'ESP_ROM_ELF_DIR': '/home/caldo/.espressif/tools/esp-rom-elfs/20230320/', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.096091] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2DNode.cpp.o\x1b[0m\n'}
+[2.096367] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/rf2o_laser_odometry.dir/src/CLaserOdometry2D.cpp.o\x1b[0m\n'}
+[2.096543] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2D.cpp.o\x1b[0m\n'}
+[2.103460] (-) TimerEvent: {}
+[2.204155] (-) TimerEvent: {}
+[2.304829] (-) TimerEvent: {}
+[2.405284] (-) TimerEvent: {}
+[2.505638] (-) TimerEvent: {}
+[2.606023] (-) TimerEvent: {}
+[2.706422] (-) TimerEvent: {}
+[2.808068] (-) TimerEvent: {}
+[2.908435] (-) TimerEvent: {}
+[3.008820] (-) TimerEvent: {}
+[3.109272] (-) TimerEvent: {}
+[3.209704] (-) TimerEvent: {}
+[3.310212] (-) TimerEvent: {}
+[3.410571] (-) TimerEvent: {}
+[3.511451] (-) TimerEvent: {}
+[3.612114] (-) TimerEvent: {}
+[3.712611] (-) TimerEvent: {}
+[3.812989] (-) TimerEvent: {}
+[3.913519] (-) TimerEvent: {}
+[4.013902] (-) TimerEvent: {}
+[4.114451] (-) TimerEvent: {}
+[4.215105] (-) TimerEvent: {}
+[4.315638] (-) TimerEvent: {}
+[4.415973] (-) TimerEvent: {}
+[4.516415] (-) TimerEvent: {}
+[4.617077] (-) TimerEvent: {}
+[4.717437] (-) TimerEvent: {}
+[4.818292] (-) TimerEvent: {}
+[4.919754] (-) TimerEvent: {}
+[5.021136] (-) TimerEvent: {}
+[5.121685] (-) TimerEvent: {}
+[5.222356] (-) TimerEvent: {}
+[5.323152] (-) TimerEvent: {}
+[5.424272] (-) TimerEvent: {}
+[5.525979] (-) TimerEvent: {}
+[5.629137] (-) TimerEvent: {}
+[5.729616] (-) TimerEvent: {}
+[5.830060] (-) TimerEvent: {}
+[5.930390] (-) TimerEvent: {}
+[6.030777] (-) TimerEvent: {}
+[6.131175] (-) TimerEvent: {}
+[6.231642] (-) TimerEvent: {}
+[6.332071] (-) TimerEvent: {}
+[6.432396] (-) TimerEvent: {}
+[6.532858] (-) TimerEvent: {}
+[6.633249] (-) TimerEvent: {}
+[6.733902] (-) TimerEvent: {}
+[6.834261] (-) TimerEvent: {}
+[6.935412] (-) TimerEvent: {}
+[7.035890] (-) TimerEvent: {}
+[7.136265] (-) TimerEvent: {}
+[7.236693] (-) TimerEvent: {}
+[7.337127] (-) TimerEvent: {}
+[7.438141] (-) TimerEvent: {}
+[7.538626] (-) TimerEvent: {}
+[7.639181] (-) TimerEvent: {}
+[7.741149] (-) TimerEvent: {}
+[7.841552] (-) TimerEvent: {}
+[7.941906] (-) TimerEvent: {}
+[8.042310] (-) TimerEvent: {}
+[8.142739] (-) TimerEvent: {}
+[8.243225] (-) TimerEvent: {}
+[8.344222] (-) TimerEvent: {}
+[8.444632] (-) TimerEvent: {}
+[8.544924] (-) TimerEvent: {}
+[8.645313] (-) TimerEvent: {}
+[8.745672] (-) TimerEvent: {}
+[8.845986] (-) TimerEvent: {}
+[8.946375] (-) TimerEvent: {}
+[9.047435] (-) TimerEvent: {}
+[9.148027] (-) TimerEvent: {}
+[9.248374] (-) TimerEvent: {}
+[9.348683] (-) TimerEvent: {}
+[9.449182] (-) TimerEvent: {}
+[9.549770] (-) TimerEvent: {}
+[9.650364] (-) TimerEvent: {}
+[9.751143] (-) TimerEvent: {}
+[9.851633] (-) TimerEvent: {}
+[9.952128] (-) TimerEvent: {}
+[10.052654] (-) TimerEvent: {}
+[10.153130] (-) TimerEvent: {}
+[10.253560] (-) TimerEvent: {}
+[10.353924] (-) TimerEvent: {}
+[10.454703] (-) TimerEvent: {}
+[10.555305] (-) TimerEvent: {}
+[10.655972] (-) TimerEvent: {}
+[10.756663] (-) TimerEvent: {}
+[10.857006] (-) TimerEvent: {}
+[10.957339] (-) TimerEvent: {}
+[11.057620] (-) TimerEvent: {}
+[11.158049] (-) TimerEvent: {}
+[11.258786] (-) TimerEvent: {}
+[11.359280] (-) TimerEvent: {}
+[11.459737] (-) TimerEvent: {}
+[11.560259] (-) TimerEvent: {}
+[11.660556] (-) TimerEvent: {}
+[11.760918] (-) TimerEvent: {}
+[11.862510] (-) TimerEvent: {}
+[11.963056] (-) TimerEvent: {}
+[12.063527] (-) TimerEvent: {}
+[12.163930] (-) TimerEvent: {}
+[12.264471] (-) TimerEvent: {}
+[12.364924] (-) TimerEvent: {}
+[12.465393] (-) TimerEvent: {}
+[12.567340] (-) TimerEvent: {}
+[12.668640] (-) TimerEvent: {}
+[12.769042] (-) TimerEvent: {}
+[12.869616] (-) TimerEvent: {}
+[12.969936] (-) TimerEvent: {}
+[13.070327] (-) TimerEvent: {}
+[13.171435] (-) TimerEvent: {}
+[13.272297] (-) TimerEvent: {}
+[13.372675] (-) TimerEvent: {}
+[13.473057] (-) TimerEvent: {}
+[13.573441] (-) TimerEvent: {}
+[13.673794] (-) TimerEvent: {}
+[13.774117] (-) TimerEvent: {}
+[13.875354] (-) TimerEvent: {}
+[13.976322] (-) TimerEvent: {}
+[14.076733] (-) TimerEvent: {}
+[14.177001] (-) TimerEvent: {}
+[14.277254] (-) TimerEvent: {}
+[14.377510] (-) TimerEvent: {}
+[14.477736] (-) TimerEvent: {}
+[14.578009] (-) TimerEvent: {}
+[14.678448] (-) TimerEvent: {}
+[14.778883] (-) TimerEvent: {}
+[14.879129] (-) TimerEvent: {}
+[14.979501] (-) TimerEvent: {}
+[15.080031] (-) TimerEvent: {}
+[15.180368] (-) TimerEvent: {}
+[15.280684] (-) TimerEvent: {}
+[15.382241] (-) TimerEvent: {}
+[15.482742] (-) TimerEvent: {}
+[15.583003] (-) TimerEvent: {}
+[15.683284] (-) TimerEvent: {}
+[15.783647] (-) TimerEvent: {}
+[15.884013] (-) TimerEvent: {}
+[15.984337] (-) TimerEvent: {}
+[16.084670] (-) TimerEvent: {}
+[16.185185] (-) TimerEvent: {}
+[16.285558] (-) TimerEvent: {}
+[16.385839] (-) TimerEvent: {}
+[16.486099] (-) TimerEvent: {}
+[16.586433] (-) TimerEvent: {}
+[16.686715] (-) TimerEvent: {}
+[16.788688] (-) TimerEvent: {}
+[16.889238] (-) TimerEvent: {}
+[16.989564] (-) TimerEvent: {}
+[17.089879] (-) TimerEvent: {}
+[17.190116] (-) TimerEvent: {}
+[17.290405] (-) TimerEvent: {}
+[17.390785] (-) TimerEvent: {}
+[17.491367] (-) TimerEvent: {}
+[17.591886] (-) TimerEvent: {}
+[17.692148] (-) TimerEvent: {}
+[17.792495] (-) TimerEvent: {}
+[17.892783] (-) TimerEvent: {}
+[17.993141] (-) TimerEvent: {}
+[18.093530] (-) TimerEvent: {}
+[18.193944] (-) TimerEvent: {}
+[18.294542] (-) TimerEvent: {}
+[18.395090] (-) TimerEvent: {}
+[18.495602] (-) TimerEvent: {}
+[18.596015] (-) TimerEvent: {}
+[18.696358] (-) TimerEvent: {}
+[18.796755] (-) TimerEvent: {}
+[18.897212] (-) TimerEvent: {}
+[18.997946] (-) TimerEvent: {}
+[19.098471] (-) TimerEvent: {}
+[19.198888] (-) TimerEvent: {}
+[19.299358] (-) TimerEvent: {}
+[19.399737] (-) TimerEvent: {}
+[19.500093] (-) TimerEvent: {}
+[19.600514] (-) TimerEvent: {}
+[19.702209] (-) TimerEvent: {}
+[19.802731] (-) TimerEvent: {}
+[19.903119] (-) TimerEvent: {}
+[20.003582] (-) TimerEvent: {}
+[20.104190] (-) TimerEvent: {}
+[20.204664] (-) TimerEvent: {}
+[20.305063] (-) TimerEvent: {}
+[20.406308] (-) TimerEvent: {}
+[20.506748] (-) TimerEvent: {}
+[20.607291] (-) TimerEvent: {}
+[20.707875] (-) TimerEvent: {}
+[20.808427] (-) TimerEvent: {}
+[20.908976] (-) TimerEvent: {}
+[21.009354] (-) TimerEvent: {}
+[21.112179] (-) TimerEvent: {}
+[21.212687] (-) TimerEvent: {}
+[21.313134] (-) TimerEvent: {}
+[21.413941] (-) TimerEvent: {}
+[21.514324] (-) TimerEvent: {}
+[21.614670] (-) TimerEvent: {}
+[21.715000] (-) TimerEvent: {}
+[21.815737] (-) TimerEvent: {}
+[21.916118] (-) TimerEvent: {}
+[22.016556] (-) TimerEvent: {}
+[22.117008] (-) TimerEvent: {}
+[22.217416] (-) TimerEvent: {}
+[22.317795] (-) TimerEvent: {}
+[22.418204] (-) TimerEvent: {}
+[22.518642] (-) TimerEvent: {}
+[22.619051] (-) TimerEvent: {}
+[22.719521] (-) TimerEvent: {}
+[22.819988] (-) TimerEvent: {}
+[22.920498] (-) TimerEvent: {}
+[23.021125] (-) TimerEvent: {}
+[23.121580] (-) TimerEvent: {}
+[23.222370] (-) TimerEvent: {}
+[23.324546] (-) TimerEvent: {}
+[23.425653] (-) TimerEvent: {}
+[23.526425] (-) TimerEvent: {}
+[23.627152] (-) TimerEvent: {}
+[23.727600] (-) TimerEvent: {}
+[23.828063] (-) TimerEvent: {}
+[23.928521] (-) TimerEvent: {}
+[24.028989] (-) TimerEvent: {}
+[24.129473] (-) TimerEvent: {}
+[24.229881] (-) TimerEvent: {}
+[24.330244] (-) TimerEvent: {}
+[24.430597] (-) TimerEvent: {}
+[24.530931] (-) TimerEvent: {}
+[24.632533] (-) TimerEvent: {}
+[24.733034] (-) TimerEvent: {}
+[24.833446] (-) TimerEvent: {}
+[24.933840] (-) TimerEvent: {}
+[25.034285] (-) TimerEvent: {}
+[25.134759] (-) TimerEvent: {}
+[25.235234] (-) TimerEvent: {}
+[25.335716] (-) TimerEvent: {}
+[25.436157] (-) TimerEvent: {}
+[25.536526] (-) TimerEvent: {}
+[25.636957] (-) TimerEvent: {}
+[25.737840] (-) TimerEvent: {}
+[25.838619] (-) TimerEvent: {}
+[25.939117] (-) TimerEvent: {}
+[26.040339] (-) TimerEvent: {}
+[26.140877] (-) TimerEvent: {}
+[26.241466] (-) TimerEvent: {}
+[26.341934] (-) TimerEvent: {}
+[26.442527] (-) TimerEvent: {}
+[26.543155] (-) TimerEvent: {}
+[26.645453] (-) TimerEvent: {}
+[26.746065] (-) TimerEvent: {}
+[26.846602] (-) TimerEvent: {}
+[26.947202] (-) TimerEvent: {}
+[27.047544] (-) TimerEvent: {}
+[27.147865] (-) TimerEvent: {}
+[27.248244] (-) TimerEvent: {}
+[27.348866] (-) TimerEvent: {}
+[27.449517] (-) TimerEvent: {}
+[27.550050] (-) TimerEvent: {}
+[27.650411] (-) TimerEvent: {}
+[27.750783] (-) TimerEvent: {}
+[27.851138] (-) TimerEvent: {}
+[27.951505] (-) TimerEvent: {}
+[28.053614] (-) TimerEvent: {}
+[28.154800] (-) TimerEvent: {}
+[28.255268] (-) TimerEvent: {}
+[28.355657] (-) TimerEvent: {}
+[28.456022] (-) TimerEvent: {}
+[28.556386] (-) TimerEvent: {}
+[28.656700] (-) TimerEvent: {}
+[28.758321] (-) TimerEvent: {}
+[28.858868] (-) TimerEvent: {}
+[28.959408] (-) TimerEvent: {}
+[29.059955] (-) TimerEvent: {}
+[29.160451] (-) TimerEvent: {}
+[29.260902] (-) TimerEvent: {}
+[29.361386] (-) TimerEvent: {}
+[29.461919] (-) TimerEvent: {}
+[29.562434] (-) TimerEvent: {}
+[29.662784] (-) TimerEvent: {}
+[29.763137] (-) TimerEvent: {}
+[29.863572] (-) TimerEvent: {}
+[29.963952] (-) TimerEvent: {}
+[30.064271] (-) TimerEvent: {}
+[30.166573] (-) TimerEvent: {}
+[30.267278] (-) TimerEvent: {}
+[30.367610] (-) TimerEvent: {}
+[30.467941] (-) TimerEvent: {}
+[30.568510] (-) TimerEvent: {}
+[30.669012] (-) TimerEvent: {}
+[30.769435] (-) TimerEvent: {}
+[30.871477] (-) TimerEvent: {}
+[30.972016] (-) TimerEvent: {}
+[31.072612] (-) TimerEvent: {}
+[31.173086] (-) TimerEvent: {}
+[31.273447] (-) TimerEvent: {}
+[31.373775] (-) TimerEvent: {}
+[31.474132] (-) TimerEvent: {}
+[31.574610] (-) TimerEvent: {}
+[31.675098] (-) TimerEvent: {}
+[31.775592] (-) TimerEvent: {}
+[31.876015] (-) TimerEvent: {}
+[31.976528] (-) TimerEvent: {}
+[32.076864] (-) TimerEvent: {}
+[32.177264] (-) TimerEvent: {}
+[32.279283] (-) TimerEvent: {}
+[32.379836] (-) TimerEvent: {}
+[32.480258] (-) TimerEvent: {}
+[32.580714] (-) TimerEvent: {}
+[32.681098] (-) TimerEvent: {}
+[32.781421] (-) TimerEvent: {}
+[32.881827] (-) TimerEvent: {}
+[32.982359] (-) TimerEvent: {}
+[33.082825] (-) TimerEvent: {}
+[33.183166] (-) TimerEvent: {}
+[33.283473] (-) TimerEvent: {}
+[33.383788] (-) TimerEvent: {}
+[33.484069] (-) TimerEvent: {}
+[33.584405] (-) TimerEvent: {}
+[33.685133] (-) TimerEvent: {}
+[33.785645] (-) TimerEvent: {}
+[33.885999] (-) TimerEvent: {}
+[33.986253] (-) TimerEvent: {}
+[34.086541] (-) TimerEvent: {}
+[34.186864] (-) TimerEvent: {}
+[34.287420] (-) TimerEvent: {}
+[34.388192] (-) TimerEvent: {}
+[34.489857] (-) TimerEvent: {}
+[34.590344] (-) TimerEvent: {}
+[34.690696] (-) TimerEvent: {}
+[34.791054] (-) TimerEvent: {}
+[34.891409] (-) TimerEvent: {}
+[34.991756] (-) TimerEvent: {}
+[35.093307] (-) TimerEvent: {}
+[35.193789] (-) TimerEvent: {}
+[35.294283] (-) TimerEvent: {}
+[35.394815] (-) TimerEvent: {}
+[35.495121] (-) TimerEvent: {}
+[35.595438] (-) TimerEvent: {}
+[35.695754] (-) TimerEvent: {}
+[35.801596] (-) TimerEvent: {}
+[35.901985] (-) TimerEvent: {}
+[36.002331] (-) TimerEvent: {}
+[36.102697] (-) TimerEvent: {}
+[36.203088] (-) TimerEvent: {}
+[36.303456] (-) TimerEvent: {}
+[36.405316] (-) TimerEvent: {}
+[36.507321] (-) TimerEvent: {}
+[36.607991] (-) TimerEvent: {}
+[36.708459] (-) TimerEvent: {}
+[36.808864] (-) TimerEvent: {}
+[36.909259] (-) TimerEvent: {}
+[37.009639] (-) TimerEvent: {}
+[37.110713] (-) TimerEvent: {}
+[37.211267] (-) TimerEvent: {}
+[37.311870] (-) TimerEvent: {}
+[37.412337] (-) TimerEvent: {}
+[37.512664] (-) TimerEvent: {}
+[37.613051] (-) TimerEvent: {}
+[37.713352] (-) TimerEvent: {}
+[37.813947] (-) TimerEvent: {}
+[37.914422] (-) TimerEvent: {}
+[38.014859] (-) TimerEvent: {}
+[38.115202] (-) TimerEvent: {}
+[38.215553] (-) TimerEvent: {}
+[38.315862] (-) TimerEvent: {}
+[38.416141] (-) TimerEvent: {}
+[38.516512] (-) TimerEvent: {}
+[38.617040] (-) TimerEvent: {}
+[38.717457] (-) TimerEvent: {}
+[38.817742] (-) TimerEvent: {}
+[38.918074] (-) TimerEvent: {}
+[39.018424] (-) TimerEvent: {}
+[39.118732] (-) TimerEvent: {}
+[39.221484] (-) TimerEvent: {}
+[39.322142] (-) TimerEvent: {}
+[39.422591] (-) TimerEvent: {}
+[39.522875] (-) TimerEvent: {}
+[39.623150] (-) TimerEvent: {}
+[39.723491] (-) TimerEvent: {}
+[39.823851] (-) TimerEvent: {}
+[39.926375] (-) TimerEvent: {}
+[40.026890] (-) TimerEvent: {}
+[40.127293] (-) TimerEvent: {}
+[40.227655] (-) TimerEvent: {}
+[40.327961] (-) TimerEvent: {}
+[40.428365] (-) TimerEvent: {}
+[40.528707] (-) TimerEvent: {}
+[40.629783] (-) TimerEvent: {}
+[40.730360] (-) TimerEvent: {}
+[40.830712] (-) TimerEvent: {}
+[40.931103] (-) TimerEvent: {}
+[41.031445] (-) TimerEvent: {}
+[41.131803] (-) TimerEvent: {}
+[41.232186] (-) TimerEvent: {}
+[41.333279] (-) TimerEvent: {}
+[41.433717] (-) TimerEvent: {}
+[41.534180] (-) TimerEvent: {}
+[41.634520] (-) TimerEvent: {}
+[41.734855] (-) TimerEvent: {}
+[41.835342] (-) TimerEvent: {}
+[41.935856] (-) TimerEvent: {}
+[42.038374] (-) TimerEvent: {}
+[42.138990] (-) TimerEvent: {}
+[42.239443] (-) TimerEvent: {}
+[42.339767] (-) TimerEvent: {}
+[42.440094] (-) TimerEvent: {}
+[42.540416] (-) TimerEvent: {}
+[42.641304] (-) TimerEvent: {}
+[42.742598] (-) TimerEvent: {}
+[42.843120] (-) TimerEvent: {}
+[42.943479] (-) TimerEvent: {}
+[43.043853] (-) TimerEvent: {}
+[43.144280] (-) TimerEvent: {}
+[43.244659] (-) TimerEvent: {}
+[43.345021] (-) TimerEvent: {}
+[43.445562] (-) TimerEvent: {}
+[43.545990] (-) TimerEvent: {}
+[43.646257] (-) TimerEvent: {}
+[43.746615] (-) TimerEvent: {}
+[43.846915] (-) TimerEvent: {}
+[43.947268] (-) TimerEvent: {}
+[44.047548] (-) TimerEvent: {}
+[44.147880] (-) TimerEvent: {}
+[44.248244] (-) TimerEvent: {}
+[44.348587] (-) TimerEvent: {}
+[44.448891] (-) TimerEvent: {}
+[44.549161] (-) TimerEvent: {}
+[44.649451] (-) TimerEvent: {}
+[44.749752] (-) TimerEvent: {}
+[44.850035] (-) TimerEvent: {}
+[44.951556] (-) TimerEvent: {}
+[45.051947] (-) TimerEvent: {}
+[45.152340] (-) TimerEvent: {}
+[45.252648] (-) TimerEvent: {}
+[45.353090] (-) TimerEvent: {}
+[45.453661] (-) TimerEvent: {}
+[45.554289] (-) TimerEvent: {}
+[45.633578] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable rf2o_laser_odometry_node\x1b[0m\n'}
+[45.654437] (-) TimerEvent: {}
+[45.755131] (-) TimerEvent: {}
+[45.855593] (-) TimerEvent: {}
+[45.933679] (rf2o_laser_odometry) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX static library librf2o_laser_odometry.a\x1b[0m\n'}
+[45.955716] (-) TimerEvent: {}
+[46.056098] (-) TimerEvent: {}
+[46.156619] (-) TimerEvent: {}
+[46.257084] (-) TimerEvent: {}
+[46.360027] (-) TimerEvent: {}
+[46.461403] (-) TimerEvent: {}
+[46.562505] (-) TimerEvent: {}
+[46.603786] (rf2o_laser_odometry) StdoutLine: {'line': b'[100%] Built target rf2o_laser_odometry\n'}
+[46.662647] (-) TimerEvent: {}
+[46.762961] (-) TimerEvent: {}
+[46.863443] (-) TimerEvent: {}
+[46.963959] (-) TimerEvent: {}
+[47.065080] (-) TimerEvent: {}
+[47.165545] (-) TimerEvent: {}
+[47.266019] (-) TimerEvent: {}
+[47.366493] (-) TimerEvent: {}
+[47.467337] (-) TimerEvent: {}
+[47.567927] (-) TimerEvent: {}
+[47.668475] (-) TimerEvent: {}
+[47.769062] (-) TimerEvent: {}
+[47.870058] (-) TimerEvent: {}
+[47.970487] (-) TimerEvent: {}
+[48.070926] (-) TimerEvent: {}
+[48.136002] (rf2o_laser_odometry) StdoutLine: {'line': b'[100%] Built target rf2o_laser_odometry_node\n'}
+[48.171777] (rf2o_laser_odometry) CommandEnded: {'returncode': 0}
+[48.176068] (-) TimerEvent: {}
+[48.177518] (rf2o_laser_odometry) JobProgress: {'identifier': 'rf2o_laser_odometry', 'progress': 'install'}
+[48.201594] (rf2o_laser_odometry) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/caldo/Projects/trekking_test_ws/build/rf2o_laser_odometry'], 'cwd': '/home/caldo/Projects/trekking_test_ws/build/rf2o_laser_odometry', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'HISTFILESIZE': '2147450879', 'MAIL': '/var/spool/mail/caldo', 'GHOSTTY_RESOURCES_DIR': '/usr/share/ghostty', 'USER': 'caldo', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'STARSHIP_SHELL': 'fish', 'HOSTNAME': 'cachyos', 'XDG_SESSION_TYPE': 'wayland', 'IDF_TOOLS_INSTALL_CMD': '/home/caldo/Projects/esp_ubuntu/esp-idf/install.sh', 'XDG_CACHE_HOME': '/home/caldo/.cache', 'SHLVL': '4', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'LESS': '-R', 'MOTD_SHOWN': 'pam', 'HOME': '/home/caldo', 'TERMINFO': '/usr/share/terminfo', 'OLDPWD': '/home/caldo/Projects/trekking_test_ws/src', 'TERM_PROGRAM_VERSION': '1.1.3-arch1.1', 'DESKTOP_SESSION': 'gnome', 'LSCOLORS': 'Gxfxcxdxdxegedabagacad', 'ROS_PYTHON_VERSION': '3', 'PAGER': 'less', 'PS1': '\\n\\[\\e[90;1m\\][\\[\\e[0;34m\\]\\@\\[\\e[90;1m\\]]-\\[\\e[90;1m\\][\\[\\e[0;32m\\]\\u\\[\\e[0;33m\\]@\\[\\e[0;32m\\]\\h\\[\\e[90;1m\\]]-\\[\\e[90;1m\\][\\[\\e[0;35m\\]\\w\\[\\e[90;1m\\]]-\\n\\[\\e[39m\\]$', 'MANAGERPID': '2825', 'LC_CTYPE': 'C.UTF-8', 'DISTROBOX_ENTER_PATH': '/usr/bin/distrobox-enter', 'SYSTEMD_EXEC_PID': '3063', 'XDG_STATE_HOME': '/home/caldo/.local/state', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'container': 'podman', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4510', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'OPENOCD_SCRIPTS': '/home/caldo/.espressif/tools/openocd-esp32/v0.12.0-esp32-20230921/openocd-esp32/share/openocd/scripts', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'caldo', 'OSH': '/home/caldo/.oh-my-bash', 'JOURNAL_STREAM': '9:43766', '_': '/home/caldo/.espressif/python_env/idf5.2_py3.12_env/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'TERMINFO_DIRS': '/usr/share/terminfo:/run/host/usr/share/terminfo', 'USERNAME': 'caldo', 'TERM': 'xterm-ghostty', 'GHOSTTY_SHELL_INTEGRATION_NO_SUDO': '1', 'IDF_DEACTIVATE_FILE_PATH': '/tmp/tmptnyim7baidf_25468', 'IDF_PATH': '/home/caldo/Projects/esp_ubuntu/esp-idf', 'PATH': '/home/caldo/Projects/esp_ubuntu/esp-idf/components/espcoredump:/home/caldo/Projects/esp_ubuntu/esp-idf/components/partition_table:/home/caldo/Projects/esp_ubuntu/esp-idf/components/app_update:/home/caldo/.espressif/tools/xtensa-esp-elf-gdb/12.1_20231023/xtensa-esp-elf-gdb/bin:/home/caldo/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin:/home/caldo/.espressif/tools/esp32ulp-elf/2.35_20220830/esp32ulp-elf/bin:/home/caldo/.espressif/tools/openocd-esp32/v0.12.0-esp32-20230921/openocd-esp32/bin:/home/caldo/.espressif/tools/xtensa-esp-elf-gdb/12.1_20231023/xtensa-esp-elf-gdb/bin:/home/caldo/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin:/home/caldo/.espressif/tools/esp32ulp-elf/2.35_20220830/esp32ulp-elf/bin:/home/caldo/.espressif/tools/openocd-esp32/v0.12.0-esp32-20230921/openocd-esp32/bin:/home/caldo/.espressif/python_env/idf5.2_py3.12_env/bin:/home/caldo/Projects/esp_ubuntu/esp-idf/tools:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/bin', 'SESSION_MANAGER': 'local/cachyos:@/tmp/.ICE-unix/2917,unix/cachyos:/tmp/.ICE-unix/2917', 'GDM_LANG': 'en_US.UTF-8', 'INVOCATION_ID': '8eff539b304c44699a7e51ff7202c8f3', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'C.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'HISTSIZE': '2147450879', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'GNOME', 'LC_TELEPHONE': 'C.UTF-8', 'XDG_DATA_HOME': '/home/caldo/.local/share', 'XDG_CONFIG_HOME': '/home/caldo/.config', 'XDG_SESSION_DESKTOP': 'gnome', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.B4OS42', 'ESP_IDF_VERSION': '5.2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'TERM_PROGRAM': 'ghostty', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/usr/bin/bash', 'GHOSTTY_BIN_DIR': '/usr/bin', 'LC_NAME': 'C.UTF-8', 'IDF_PYTHON_ENV_PATH': '/home/caldo/.espressif/python_env/idf5.2_py3.12_env', 'GDMSESSION': 'gnome', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'IDF_TOOLS_EXPORT_CMD': '/home/caldo/Projects/esp_ubuntu/esp-idf/export.sh', 'LC_IDENTIFICATION': 'C.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/caldo/Projects/trekking_test_ws/build/rf2o_laser_odometry', 'CONTAINER_ID': 'ros2', 'XDG_CONFIG_DIRS': '/etc/xdg', 'VIRTUAL_ENV_DISABLE_PROMPT': '1', 'XDG_DATA_DIRS': '/home/caldo/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/usr/local/share:/usr/share', 'STARSHIP_SESSION_KEY': '2097112695193622', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'ESP_ROM_ELF_DIR': '/home/caldo/.espressif/tools/esp-rom-elfs/20230320/', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[48.214598] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[48.215035] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Installing: /home/caldo/Projects/trekking_test_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node\n'}
+[48.252019] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/caldo/Projects/trekking_test_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node" to ""\n'}
+[48.252428] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Installing: /home/caldo/Projects/trekking_test_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch\n'}
+[48.252637] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Installing: /home/caldo/Projects/trekking_test_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch/rf2o_laser_odometry.launch.py\n'}
+[48.253126] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Installing: /home/caldo/Projects/trekking_test_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies/rf2o_laser_odometry\n'}
+[48.253575] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Installing: /home/caldo/Projects/trekking_test_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path/rf2o_laser_odometry\n'}
+[48.254733] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Installing: /home/caldo/Projects/trekking_test_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.sh\n'}
+[48.255172] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Installing: /home/caldo/Projects/trekking_test_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.dsv\n'}
+[48.255435] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Installing: /home/caldo/Projects/trekking_test_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.sh\n'}
+[48.255773] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Installing: /home/caldo/Projects/trekking_test_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.dsv\n'}
+[48.256009] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Installing: /home/caldo/Projects/trekking_test_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.bash\n'}
+[48.256299] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Installing: /home/caldo/Projects/trekking_test_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.sh\n'}
+[48.256493] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Installing: /home/caldo/Projects/trekking_test_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.zsh\n'}
+[48.256691] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Installing: /home/caldo/Projects/trekking_test_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.dsv\n'}
+[48.256917] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Installing: /home/caldo/Projects/trekking_test_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv\n'}
+[48.257164] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Installing: /home/caldo/Projects/trekking_test_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/packages/rf2o_laser_odometry\n'}
+[48.257556] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Installing: /home/caldo/Projects/trekking_test_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig.cmake\n'}
+[48.257805] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Installing: /home/caldo/Projects/trekking_test_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig-version.cmake\n'}
+[48.257991] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Installing: /home/caldo/Projects/trekking_test_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.xml\n'}
+[48.267167] (rf2o_laser_odometry) CommandEnded: {'returncode': 0}
+[48.276142] (-) TimerEvent: {}
+[48.338225] (rf2o_laser_odometry) JobEnded: {'identifier': 'rf2o_laser_odometry', 'rc': 0}
+[48.340120] (-) EventReactorShutdown: {}

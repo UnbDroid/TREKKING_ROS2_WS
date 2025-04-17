@@ -1,0 +1,46 @@
+[0.020s] Invoking command in '/home/caldo/Projects/trekking_test_ws/build/trekking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\n\[\e[90;1m\][\[\e[0;34m\]\@\[\e[90;1m\]]-\[\e[90;1m\][\[\e[0;32m\]\u\[\e[0;33m\]@\[\e[0;32m\]\h\[\e[90;1m\]]-\[\e[90;1m\][\[\e[0;35m\]\w\[\e[90;1m\]]-\n\[\e[39m\]$ /usr/bin/cmake /home/caldo/Projects/trekking_test_ws/src/trekking -DCMAKE_INSTALL_PREFIX=/home/caldo/Projects/trekking_test_ws/install/trekking
+[0.216s] -- The C compiler identification is GNU 13.3.0
+[0.355s] -- The CXX compiler identification is GNU 13.3.0
+[0.393s] -- Detecting C compiler ABI info
+[0.542s] -- Detecting C compiler ABI info - done
+[0.560s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.561s] -- Detecting C compile features
+[0.562s] -- Detecting C compile features - done
+[0.579s] -- Detecting CXX compiler ABI info
+[0.725s] -- Detecting CXX compiler ABI info - done
+[0.747s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.748s] -- Detecting CXX compile features
+[0.748s] -- Detecting CXX compile features - done
+[0.761s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.967s] -- Found Python3: /home/caldo/.espressif/python_env/idf5.2_py3.12_env/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.163s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.351s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.354s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.354s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.355s] -- Added test 'lint_cmake' to check CMake code style
+[1.356s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.358s] -- Added test 'xmllint' to check XML markup files
+[1.361s] -- Configuring done (1.3s)
+[1.365s] -- Generating done (0.0s)
+[1.368s] -- Build files have been written to: /home/caldo/Projects/trekking_test_ws/build/trekking
+[1.374s] Invoked command in '/home/caldo/Projects/trekking_test_ws/build/trekking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\n\[\e[90;1m\][\[\e[0;34m\]\@\[\e[90;1m\]]-\[\e[90;1m\][\[\e[0;32m\]\u\[\e[0;33m\]@\[\e[0;32m\]\h\[\e[90;1m\]]-\[\e[90;1m\][\[\e[0;35m\]\w\[\e[90;1m\]]-\n\[\e[39m\]$ /usr/bin/cmake /home/caldo/Projects/trekking_test_ws/src/trekking -DCMAKE_INSTALL_PREFIX=/home/caldo/Projects/trekking_test_ws/install/trekking
+[1.376s] Invoking command in '/home/caldo/Projects/trekking_test_ws/build/trekking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\n\[\e[90;1m\][\[\e[0;34m\]\@\[\e[90;1m\]]-\[\e[90;1m\][\[\e[0;32m\]\u\[\e[0;33m\]@\[\e[0;32m\]\h\[\e[90;1m\]]-\[\e[90;1m\][\[\e[0;35m\]\w\[\e[90;1m\]]-\n\[\e[39m\]$ /usr/bin/cmake --build /home/caldo/Projects/trekking_test_ws/build/trekking -- -j8 -l8
+[1.434s] Invoked command in '/home/caldo/Projects/trekking_test_ws/build/trekking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\n\[\e[90;1m\][\[\e[0;34m\]\@\[\e[90;1m\]]-\[\e[90;1m\][\[\e[0;32m\]\u\[\e[0;33m\]@\[\e[0;32m\]\h\[\e[90;1m\]]-\[\e[90;1m\][\[\e[0;35m\]\w\[\e[90;1m\]]-\n\[\e[39m\]$ /usr/bin/cmake --build /home/caldo/Projects/trekking_test_ws/build/trekking -- -j8 -l8
+[1.449s] Invoking command in '/home/caldo/Projects/trekking_test_ws/build/trekking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\n\[\e[90;1m\][\[\e[0;34m\]\@\[\e[90;1m\]]-\[\e[90;1m\][\[\e[0;32m\]\u\[\e[0;33m\]@\[\e[0;32m\]\h\[\e[90;1m\]]-\[\e[90;1m\][\[\e[0;35m\]\w\[\e[90;1m\]]-\n\[\e[39m\]$ /usr/bin/cmake --install /home/caldo/Projects/trekking_test_ws/build/trekking
+[1.460s] -- Install configuration: ""
+[1.460s] -- Installing: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/config
+[1.460s] -- Installing: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/config/empty.yaml
+[1.460s] -- Installing: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/config/view_bot.rviz
+[1.461s] -- Installing: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/description
+[1.461s] -- Installing: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/description/inertial_macros.xacro
+[1.461s] -- Installing: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/description/robot.urdf.xacro
+[1.461s] -- Installing: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/description/robot_core.xacro
+[1.461s] -- Installing: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/launch
+[1.461s] -- Installing: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/launch/rsp.launch.py
+[1.461s] CMake Error at cmake_install.cmake:46 (file):
+[1.461s]   file INSTALL cannot find
+[1.462s]   "/home/caldo/Projects/trekking_test_ws/src/trekking/worlds": No such file or
+[1.462s]   directory.
+[1.462s] 
+[1.463s] 
+[1.463s] Invoked command in '/home/caldo/Projects/trekking_test_ws/build/trekking' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\n\[\e[90;1m\][\[\e[0;34m\]\@\[\e[90;1m\]]-\[\e[90;1m\][\[\e[0;32m\]\u\[\e[0;33m\]@\[\e[0;32m\]\h\[\e[90;1m\]]-\[\e[90;1m\][\[\e[0;35m\]\w\[\e[90;1m\]]-\n\[\e[39m\]$ /usr/bin/cmake --install /home/caldo/Projects/trekking_test_ws/build/trekking

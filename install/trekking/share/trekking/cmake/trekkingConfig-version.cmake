@@ -1,0 +1,1 @@
+/home/caldo/Projects/trekking_test_ws/build/trekking/ament_cmake_core/trekkingConfig-version.cmake

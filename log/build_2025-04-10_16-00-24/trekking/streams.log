@@ -1,0 +1,51 @@
+[0.021s] Invoking command in '/home/caldo/Projects/trekking_test_ws/build/trekking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\n\[\e[90;1m\][\[\e[0;34m\]\@\[\e[90;1m\]]-\[\e[90;1m\][\[\e[0;32m\]\u\[\e[0;33m\]@\[\e[0;32m\]\h\[\e[90;1m\]]-\[\e[90;1m\][\[\e[0;35m\]\w\[\e[90;1m\]]-\n\[\e[39m\]$ /usr/bin/cmake --build /home/caldo/Projects/trekking_test_ws/build/trekking -- -j8 -l8
+[0.098s] Invoked command in '/home/caldo/Projects/trekking_test_ws/build/trekking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\n\[\e[90;1m\][\[\e[0;34m\]\@\[\e[90;1m\]]-\[\e[90;1m\][\[\e[0;32m\]\u\[\e[0;33m\]@\[\e[0;32m\]\h\[\e[90;1m\]]-\[\e[90;1m\][\[\e[0;35m\]\w\[\e[90;1m\]]-\n\[\e[39m\]$ /usr/bin/cmake --build /home/caldo/Projects/trekking_test_ws/build/trekking -- -j8 -l8
+[0.116s] Invoking command in '/home/caldo/Projects/trekking_test_ws/build/trekking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\n\[\e[90;1m\][\[\e[0;34m\]\@\[\e[90;1m\]]-\[\e[90;1m\][\[\e[0;32m\]\u\[\e[0;33m\]@\[\e[0;32m\]\h\[\e[90;1m\]]-\[\e[90;1m\][\[\e[0;35m\]\w\[\e[90;1m\]]-\n\[\e[39m\]$ /usr/bin/cmake --install /home/caldo/Projects/trekking_test_ws/build/trekking
+[0.131s] -- Install configuration: ""
+[0.132s] -- Execute custom install script
+[0.133s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/config/drive_bot.rviz
+[0.133s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/config/empty.yaml
+[0.133s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/config/gaz_ros2_ctl_use_sim.yaml
+[0.133s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/config/gazebo_params.yaml
+[0.133s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/config/joystick.yaml
+[0.134s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/config/main.rviz
+[0.134s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/config/map.rviz
+[0.134s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/config/mapper_params_online_async.yaml
+[0.134s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/config/my_controllers.yaml
+[0.134s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/config/nav2_params.yaml
+[0.135s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/config/oche kkkk.rviz
+[0.135s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/config/twist_mux.yaml
+[0.135s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/config/view_bot.rviz
+[0.135s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/description/camera.xacro
+[0.136s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/description/depth_camera.xacro
+[0.136s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/description/face.xacro
+[0.136s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/description/gazebo_control.xacro
+[0.136s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/description/inertial_macros.xacro
+[0.136s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/description/lidar.xacro
+[0.136s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/description/robot.urdf.xacro
+[0.136s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/description/robot_core.xacro
+[0.137s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/launch/camera.launch.py
+[0.137s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/launch/joystick.launch.py
+[0.137s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/launch/launch_robot.launch.py
+[0.138s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/launch/launch_sim.launch.py
+[0.138s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/launch/localization_launch.py
+[0.138s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/launch/main.launch.py
+[0.138s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/launch/navigation_launch.py
+[0.139s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/launch/online_async_launch.py
+[0.139s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/launch/rplidar.launch.py
+[0.139s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/ament_index/resource_index/package_run_dependencies/trekking
+[0.140s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/ament_index/resource_index/parent_prefix_path/trekking
+[0.140s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/environment/ament_prefix_path.sh
+[0.141s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/environment/ament_prefix_path.dsv
+[0.141s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/environment/path.sh
+[0.142s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/environment/path.dsv
+[0.142s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/local_setup.bash
+[0.142s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/local_setup.sh
+[0.143s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/local_setup.zsh
+[0.143s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/local_setup.dsv
+[0.143s] -- Symlinking: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/package.dsv
+[0.161s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/ament_index/resource_index/packages/trekking
+[0.161s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/cmake/trekkingConfig.cmake
+[0.161s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/cmake/trekkingConfig-version.cmake
+[0.162s] -- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/package.xml
+[0.166s] Invoked command in '/home/caldo/Projects/trekking_test_ws/build/trekking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\n\[\e[90;1m\][\[\e[0;34m\]\@\[\e[90;1m\]]-\[\e[90;1m\][\[\e[0;32m\]\u\[\e[0;33m\]@\[\e[0;32m\]\h\[\e[90;1m\]]-\[\e[90;1m\][\[\e[0;35m\]\w\[\e[90;1m\]]-\n\[\e[39m\]$ /usr/bin/cmake --install /home/caldo/Projects/trekking_test_ws/build/trekking

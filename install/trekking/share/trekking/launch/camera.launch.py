@@ -1,0 +1,1 @@
+/home/caldo/Projects/trekking_ws/src/trekking/launch/camera.launch.py
