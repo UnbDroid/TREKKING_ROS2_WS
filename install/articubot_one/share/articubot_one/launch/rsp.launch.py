@@ -1,1 +1,0 @@
-/home/caldo/Projects/trekking_ws/src/articubot_one/launch/rsp.launch.py

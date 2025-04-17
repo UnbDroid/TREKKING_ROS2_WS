@@ -1,0 +1,32 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/caldo/Projects/TREKKING_ROS2_WS/build/trekking/CMakeCache.txt is different than the directory /home/caldo/Projects/trekking_test_ws/build/trekking where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/config/mapper_params_online_async.yaml
+-- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/config/nav2_params copy.yaml
+-- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/config/nav2_params.yaml
+-- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/config/view_bot.rviz
+-- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/description/inertial_macros.xacro
+-- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/description/lidar.xacro
+-- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/description/robot_core.urdf.xacro
+-- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/description/ros2_control.xacro
+-- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/launch/localization_launch.py
+-- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/launch/main.launch.py
+-- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/launch/navigation_launch.py
+-- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/launch/online_async_launch.py
+-- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/launch/rplidar.launch.py
+-- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/launch/rsp.launch.py
+-- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/ament_index/resource_index/package_run_dependencies/trekking
+-- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/ament_index/resource_index/parent_prefix_path/trekking
+-- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/environment/path.sh
+-- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/environment/path.dsv
+-- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/local_setup.bash
+-- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/local_setup.sh
+-- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/local_setup.zsh
+-- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/local_setup.dsv
+-- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/package.dsv
+-- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/ament_index/resource_index/packages/trekking
+-- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/cmake/trekkingConfig.cmake
+-- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/cmake/trekkingConfig-version.cmake
+-- Up-to-date symlink: /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/package.xml

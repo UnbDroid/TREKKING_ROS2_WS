@@ -1,11 +1,10 @@
 /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/config/mapper_params_online_async.yaml
+/home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/config/nav2_params copy.yaml
 /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/config/nav2_params.yaml
 /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/config/view_bot.rviz
 /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/description/inertial_macros.xacro
 /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/description/lidar.xacro
-/home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/description/robot.urdf.xacro
 /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/description/robot_core.urdf.xacro
-/home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/description/robot_core.xacro
 /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/description/ros2_control.xacro
 /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/launch/localization_launch.py
 /home/caldo/Projects/trekking_test_ws/install/trekking/share/trekking/launch/main.launch.py
