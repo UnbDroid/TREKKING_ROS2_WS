@@ -1,1 +1,1 @@
-/home/caldo/Projects/trekking_test_ws/src/trekking/launch/main.launch.py
+/home/caldo/Projects/TREKKING_ROS2_WS/src/trekking/launch/main.launch.py

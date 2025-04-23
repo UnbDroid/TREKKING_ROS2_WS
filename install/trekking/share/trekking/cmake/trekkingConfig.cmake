@@ -1,1 +1,1 @@
-/home/caldo/Projects/trekking_test_ws/build/trekking/ament_cmake_core/trekkingConfig.cmake
+/home/caldo/Projects/TREKKING_ROS2_WS/build/trekking/ament_cmake_core/trekkingConfig.cmake

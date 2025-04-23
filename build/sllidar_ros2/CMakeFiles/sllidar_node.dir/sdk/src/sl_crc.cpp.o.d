@@ -1,10 +1,10 @@
 CMakeFiles/sllidar_node.dir/sdk/src/sl_crc.cpp.o: \
- /home/caldo/Projects/trekking_test_ws/src/sllidar_ros2/sdk/src/sl_crc.cpp \
+ /home/caldo/Projects/TREKKING_ROS2_WS/src/sllidar_ros2/sdk/src/sl_crc.cpp \
  /usr/include/stdc-predef.h \
- /home/caldo/Projects/trekking_test_ws/src/sllidar_ros2/./sdk/include/sl_crc.h \
- /home/caldo/Projects/trekking_test_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h \
- /home/caldo/Projects/trekking_test_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h \
- /home/caldo/Projects/trekking_test_ws/src/sllidar_ros2/./sdk/include/sl_types.h \
+ /home/caldo/Projects/TREKKING_ROS2_WS/src/sllidar_ros2/./sdk/include/sl_crc.h \
+ /home/caldo/Projects/TREKKING_ROS2_WS/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h \
+ /home/caldo/Projects/TREKKING_ROS2_WS/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h \
+ /home/caldo/Projects/TREKKING_ROS2_WS/src/sllidar_ros2/./sdk/include/sl_types.h \
  /usr/include/c++/13/cstdint \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

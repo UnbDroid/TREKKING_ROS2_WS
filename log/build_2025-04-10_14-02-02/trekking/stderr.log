@@ -1,6 +1,0 @@
-CMake Error at cmake_install.cmake:46 (file):
-  file INSTALL cannot find
-  "/home/caldo/Projects/trekking_test_ws/src/trekking/worlds": No such file or
-  directory.
-
-

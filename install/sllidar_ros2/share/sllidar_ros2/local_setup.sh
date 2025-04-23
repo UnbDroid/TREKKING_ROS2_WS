@@ -1,1 +1,1 @@
-/home/caldo/Projects/trekking_test_ws/build/sllidar_ros2/ament_cmake_environment_hooks/local_setup.sh
+/home/caldo/Projects/TREKKING_ROS2_WS/build/sllidar_ros2/ament_cmake_environment_hooks/local_setup.sh

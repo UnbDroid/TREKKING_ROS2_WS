@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/caldo/Projects/trekking_test_ws/src/trekking
+CMAKE_SOURCE_DIR = /home/caldo/Projects/TREKKING_ROS2_WS/src/trekking
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/caldo/Projects/trekking_test_ws/build/trekking
+CMAKE_BINARY_DIR = /home/caldo/Projects/TREKKING_ROS2_WS/build/trekking
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/caldo/Projects/trekking_test_ws/build/trekking && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/caldo/Projects/trekking_test_ws/src/trekking /home/caldo/Projects/trekking_test_ws/src/trekking /home/caldo/Projects/trekking_test_ws/build/trekking /home/caldo/Projects/trekking_test_ws/build/trekking /home/caldo/Projects/trekking_test_ws/build/trekking/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/caldo/Projects/TREKKING_ROS2_WS/build/trekking && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/caldo/Projects/TREKKING_ROS2_WS/src/trekking /home/caldo/Projects/TREKKING_ROS2_WS/src/trekking /home/caldo/Projects/TREKKING_ROS2_WS/build/trekking /home/caldo/Projects/TREKKING_ROS2_WS/build/trekking /home/caldo/Projects/TREKKING_ROS2_WS/build/trekking/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 

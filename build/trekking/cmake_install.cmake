@@ -1,8 +1,8 @@
-# Install script for directory: /home/caldo/Projects/trekking_test_ws/src/trekking
+# Install script for directory: /home/caldo/Projects/TREKKING_ROS2_WS/src/trekking
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/caldo/Projects/trekking_test_ws/install/trekking")
+  set(CMAKE_INSTALL_PREFIX "/home/caldo/Projects/TREKKING_ROS2_WS/install/trekking")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/caldo/Projects/trekking_test_ws/build/trekking/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/caldo/Projects/TREKKING_ROS2_WS/build/trekking/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/caldo/Projects/trekking_test_ws/build/trekking/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/caldo/Projects/TREKKING_ROS2_WS/build/trekking/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

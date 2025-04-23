@@ -1,1 +1,1 @@
-/home/caldo/Projects/trekking_test_ws/src/sllidar_ros2/launch/sllidar_a2m8_launch.py
+/home/caldo/Projects/TREKKING_ROS2_WS/src/sllidar_ros2/launch/sllidar_a2m8_launch.py

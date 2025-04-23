@@ -1,5 +1,5 @@
 CMakeFiles/sllidar_client.dir/src/sllidar_client.cpp.o: \
- /home/caldo/Projects/trekking_test_ws/src/sllidar_ros2/src/sllidar_client.cpp \
+ /home/caldo/Projects/TREKKING_ROS2_WS/src/sllidar_ros2/src/sllidar_client.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/13/csignal \

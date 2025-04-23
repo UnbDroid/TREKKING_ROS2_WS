@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/caldo/Projects/trekking_test_ws/install/rf2o_laser_odometry/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/caldo/Projects/TREKKING_ROS2_WS/install/rf2o_laser_odometry/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/caldo/Projects/trekking_test_ws/install/rf2o_laser_odometry/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/caldo/Projects/TREKKING_ROS2_WS/install/rf2o_laser_odometry/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/caldo/Projects/trekking_test_ws/install/rf2o_laser_odometry/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/caldo/Projects/TREKKING_ROS2_WS/install/rf2o_laser_odometry/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/caldo/Projects/trekking_test_ws/install/rf2o_laser_odometry/${destination}")
+      set(destination "/home/caldo/Projects/TREKKING_ROS2_WS/install/rf2o_laser_odometry/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -311,49 +311,49 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install("TARGETS" "rf2o_laser_odometry_node" "DESTINATION" "lib/rf2o_laser_odometry")
-include("/home/caldo/Projects/trekking_test_ws/build/rf2o_laser_odometry/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/caldo/Projects/TREKKING_ROS2_WS/build/rf2o_laser_odometry/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(DIRECTORY "launch" "DESTINATION" "share/rf2o_laser_odometry")
-ament_cmake_symlink_install_directory("/home/caldo/Projects/trekking_test_ws/src/rf2o_laser_odometry" DIRECTORY "launch" "DESTINATION" "share/rf2o_laser_odometry")
+ament_cmake_symlink_install_directory("/home/caldo/Projects/TREKKING_ROS2_WS/src/rf2o_laser_odometry" DIRECTORY "launch" "DESTINATION" "share/rf2o_laser_odometry")
 
-# install(FILES "/home/caldo/Projects/trekking_test_ws/build/rf2o_laser_odometry/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rf2o_laser_odometry" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/caldo/Projects/trekking_test_ws/src/rf2o_laser_odometry" FILES "/home/caldo/Projects/trekking_test_ws/build/rf2o_laser_odometry/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rf2o_laser_odometry" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/rf2o_laser_odometry/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rf2o_laser_odometry" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/caldo/Projects/TREKKING_ROS2_WS/src/rf2o_laser_odometry" FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/rf2o_laser_odometry/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rf2o_laser_odometry" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/caldo/Projects/trekking_test_ws/build/rf2o_laser_odometry/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/rf2o_laser_odometry" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/caldo/Projects/trekking_test_ws/src/rf2o_laser_odometry" FILES "/home/caldo/Projects/trekking_test_ws/build/rf2o_laser_odometry/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/rf2o_laser_odometry" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/rf2o_laser_odometry/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/rf2o_laser_odometry" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/caldo/Projects/TREKKING_ROS2_WS/src/rf2o_laser_odometry" FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/rf2o_laser_odometry/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/rf2o_laser_odometry" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/rf2o_laser_odometry/environment")
-ament_cmake_symlink_install_files("/home/caldo/Projects/trekking_test_ws/src/rf2o_laser_odometry" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/rf2o_laser_odometry/environment")
+ament_cmake_symlink_install_files("/home/caldo/Projects/TREKKING_ROS2_WS/src/rf2o_laser_odometry" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/rf2o_laser_odometry/environment")
 
-# install(FILES "/home/caldo/Projects/trekking_test_ws/build/rf2o_laser_odometry/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/rf2o_laser_odometry/environment")
-ament_cmake_symlink_install_files("/home/caldo/Projects/trekking_test_ws/src/rf2o_laser_odometry" FILES "/home/caldo/Projects/trekking_test_ws/build/rf2o_laser_odometry/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/rf2o_laser_odometry/environment")
+# install(FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/rf2o_laser_odometry/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/rf2o_laser_odometry/environment")
+ament_cmake_symlink_install_files("/home/caldo/Projects/TREKKING_ROS2_WS/src/rf2o_laser_odometry" FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/rf2o_laser_odometry/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/rf2o_laser_odometry/environment")
 
 # install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/rf2o_laser_odometry/environment")
-ament_cmake_symlink_install_files("/home/caldo/Projects/trekking_test_ws/src/rf2o_laser_odometry" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/rf2o_laser_odometry/environment")
+ament_cmake_symlink_install_files("/home/caldo/Projects/TREKKING_ROS2_WS/src/rf2o_laser_odometry" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/rf2o_laser_odometry/environment")
 
-# install(FILES "/home/caldo/Projects/trekking_test_ws/build/rf2o_laser_odometry/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/rf2o_laser_odometry/environment")
-ament_cmake_symlink_install_files("/home/caldo/Projects/trekking_test_ws/src/rf2o_laser_odometry" FILES "/home/caldo/Projects/trekking_test_ws/build/rf2o_laser_odometry/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/rf2o_laser_odometry/environment")
+# install(FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/rf2o_laser_odometry/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/rf2o_laser_odometry/environment")
+ament_cmake_symlink_install_files("/home/caldo/Projects/TREKKING_ROS2_WS/src/rf2o_laser_odometry" FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/rf2o_laser_odometry/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/rf2o_laser_odometry/environment")
 
-# install(FILES "/home/caldo/Projects/trekking_test_ws/build/rf2o_laser_odometry/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/rf2o_laser_odometry")
-ament_cmake_symlink_install_files("/home/caldo/Projects/trekking_test_ws/src/rf2o_laser_odometry" FILES "/home/caldo/Projects/trekking_test_ws/build/rf2o_laser_odometry/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/rf2o_laser_odometry")
+# install(FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/rf2o_laser_odometry/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/rf2o_laser_odometry")
+ament_cmake_symlink_install_files("/home/caldo/Projects/TREKKING_ROS2_WS/src/rf2o_laser_odometry" FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/rf2o_laser_odometry/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/rf2o_laser_odometry")
 
-# install(FILES "/home/caldo/Projects/trekking_test_ws/build/rf2o_laser_odometry/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/rf2o_laser_odometry")
-ament_cmake_symlink_install_files("/home/caldo/Projects/trekking_test_ws/src/rf2o_laser_odometry" FILES "/home/caldo/Projects/trekking_test_ws/build/rf2o_laser_odometry/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/rf2o_laser_odometry")
+# install(FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/rf2o_laser_odometry/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/rf2o_laser_odometry")
+ament_cmake_symlink_install_files("/home/caldo/Projects/TREKKING_ROS2_WS/src/rf2o_laser_odometry" FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/rf2o_laser_odometry/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/rf2o_laser_odometry")
 
-# install(FILES "/home/caldo/Projects/trekking_test_ws/build/rf2o_laser_odometry/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/rf2o_laser_odometry")
-ament_cmake_symlink_install_files("/home/caldo/Projects/trekking_test_ws/src/rf2o_laser_odometry" FILES "/home/caldo/Projects/trekking_test_ws/build/rf2o_laser_odometry/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/rf2o_laser_odometry")
+# install(FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/rf2o_laser_odometry/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/rf2o_laser_odometry")
+ament_cmake_symlink_install_files("/home/caldo/Projects/TREKKING_ROS2_WS/src/rf2o_laser_odometry" FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/rf2o_laser_odometry/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/rf2o_laser_odometry")
 
-# install(FILES "/home/caldo/Projects/trekking_test_ws/build/rf2o_laser_odometry/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/rf2o_laser_odometry")
-ament_cmake_symlink_install_files("/home/caldo/Projects/trekking_test_ws/src/rf2o_laser_odometry" FILES "/home/caldo/Projects/trekking_test_ws/build/rf2o_laser_odometry/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/rf2o_laser_odometry")
+# install(FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/rf2o_laser_odometry/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/rf2o_laser_odometry")
+ament_cmake_symlink_install_files("/home/caldo/Projects/TREKKING_ROS2_WS/src/rf2o_laser_odometry" FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/rf2o_laser_odometry/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/rf2o_laser_odometry")
 
-# install(FILES "/home/caldo/Projects/trekking_test_ws/build/rf2o_laser_odometry/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/rf2o_laser_odometry")
-ament_cmake_symlink_install_files("/home/caldo/Projects/trekking_test_ws/src/rf2o_laser_odometry" FILES "/home/caldo/Projects/trekking_test_ws/build/rf2o_laser_odometry/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/rf2o_laser_odometry")
+# install(FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/rf2o_laser_odometry/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/rf2o_laser_odometry")
+ament_cmake_symlink_install_files("/home/caldo/Projects/TREKKING_ROS2_WS/src/rf2o_laser_odometry" FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/rf2o_laser_odometry/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/rf2o_laser_odometry")
 
-# install(FILES "/home/caldo/Projects/trekking_test_ws/build/rf2o_laser_odometry/ament_cmake_index/share/ament_index/resource_index/packages/rf2o_laser_odometry" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/caldo/Projects/trekking_test_ws/src/rf2o_laser_odometry" FILES "/home/caldo/Projects/trekking_test_ws/build/rf2o_laser_odometry/ament_cmake_index/share/ament_index/resource_index/packages/rf2o_laser_odometry" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/rf2o_laser_odometry/ament_cmake_index/share/ament_index/resource_index/packages/rf2o_laser_odometry" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/caldo/Projects/TREKKING_ROS2_WS/src/rf2o_laser_odometry" FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/rf2o_laser_odometry/ament_cmake_index/share/ament_index/resource_index/packages/rf2o_laser_odometry" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/caldo/Projects/trekking_test_ws/build/rf2o_laser_odometry/ament_cmake_core/rf2o_laser_odometryConfig.cmake" "/home/caldo/Projects/trekking_test_ws/build/rf2o_laser_odometry/ament_cmake_core/rf2o_laser_odometryConfig-version.cmake" "DESTINATION" "share/rf2o_laser_odometry/cmake")
-ament_cmake_symlink_install_files("/home/caldo/Projects/trekking_test_ws/src/rf2o_laser_odometry" FILES "/home/caldo/Projects/trekking_test_ws/build/rf2o_laser_odometry/ament_cmake_core/rf2o_laser_odometryConfig.cmake" "/home/caldo/Projects/trekking_test_ws/build/rf2o_laser_odometry/ament_cmake_core/rf2o_laser_odometryConfig-version.cmake" "DESTINATION" "share/rf2o_laser_odometry/cmake")
+# install(FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/rf2o_laser_odometry/ament_cmake_core/rf2o_laser_odometryConfig.cmake" "/home/caldo/Projects/TREKKING_ROS2_WS/build/rf2o_laser_odometry/ament_cmake_core/rf2o_laser_odometryConfig-version.cmake" "DESTINATION" "share/rf2o_laser_odometry/cmake")
+ament_cmake_symlink_install_files("/home/caldo/Projects/TREKKING_ROS2_WS/src/rf2o_laser_odometry" FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/rf2o_laser_odometry/ament_cmake_core/rf2o_laser_odometryConfig.cmake" "/home/caldo/Projects/TREKKING_ROS2_WS/build/rf2o_laser_odometry/ament_cmake_core/rf2o_laser_odometryConfig-version.cmake" "DESTINATION" "share/rf2o_laser_odometry/cmake")
 
-# install(FILES "/home/caldo/Projects/trekking_test_ws/src/rf2o_laser_odometry/package.xml" "DESTINATION" "share/rf2o_laser_odometry")
-ament_cmake_symlink_install_files("/home/caldo/Projects/trekking_test_ws/src/rf2o_laser_odometry" FILES "/home/caldo/Projects/trekking_test_ws/src/rf2o_laser_odometry/package.xml" "DESTINATION" "share/rf2o_laser_odometry")
+# install(FILES "/home/caldo/Projects/TREKKING_ROS2_WS/src/rf2o_laser_odometry/package.xml" "DESTINATION" "share/rf2o_laser_odometry")
+ament_cmake_symlink_install_files("/home/caldo/Projects/TREKKING_ROS2_WS/src/rf2o_laser_odometry" FILES "/home/caldo/Projects/TREKKING_ROS2_WS/src/rf2o_laser_odometry/package.xml" "DESTINATION" "share/rf2o_laser_odometry")

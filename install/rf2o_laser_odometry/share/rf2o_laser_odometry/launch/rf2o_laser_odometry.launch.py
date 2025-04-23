@@ -1,1 +1,1 @@
-/home/caldo/Projects/trekking_test_ws/src/rf2o_laser_odometry/launch/rf2o_laser_odometry.launch.py
+/home/caldo/Projects/TREKKING_ROS2_WS/src/rf2o_laser_odometry/launch/rf2o_laser_odometry.launch.py

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/caldo/Projects/trekking_test_ws/src/trekking
+CMAKE_SOURCE_DIR = /home/caldo/Projects/TREKKING_ROS2_WS/src/trekking
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/caldo/Projects/trekking_test_ws/build/trekking
+CMAKE_BINARY_DIR = /home/caldo/Projects/TREKKING_ROS2_WS/build/trekking
 
 # Utility rule file for trekking_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/trekking_uninstall.dir/compiler_depend.make
 include CMakeFiles/trekking_uninstall.dir/progress.make
 
 CMakeFiles/trekking_uninstall:
-	/usr/bin/cmake -P /home/caldo/Projects/trekking_test_ws/build/trekking/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/caldo/Projects/TREKKING_ROS2_WS/build/trekking/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 trekking_uninstall: CMakeFiles/trekking_uninstall
 trekking_uninstall: CMakeFiles/trekking_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/trekking_uninstall.dir/clean:
 .PHONY : CMakeFiles/trekking_uninstall.dir/clean
 
 CMakeFiles/trekking_uninstall.dir/depend:
-	cd /home/caldo/Projects/trekking_test_ws/build/trekking && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/caldo/Projects/trekking_test_ws/src/trekking /home/caldo/Projects/trekking_test_ws/src/trekking /home/caldo/Projects/trekking_test_ws/build/trekking /home/caldo/Projects/trekking_test_ws/build/trekking /home/caldo/Projects/trekking_test_ws/build/trekking/CMakeFiles/trekking_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/caldo/Projects/TREKKING_ROS2_WS/build/trekking && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/caldo/Projects/TREKKING_ROS2_WS/src/trekking /home/caldo/Projects/TREKKING_ROS2_WS/src/trekking /home/caldo/Projects/TREKKING_ROS2_WS/build/trekking /home/caldo/Projects/TREKKING_ROS2_WS/build/trekking /home/caldo/Projects/TREKKING_ROS2_WS/build/trekking/CMakeFiles/trekking_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/trekking_uninstall.dir/depend
 

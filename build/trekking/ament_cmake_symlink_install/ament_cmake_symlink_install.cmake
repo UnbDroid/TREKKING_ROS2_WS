@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/caldo/Projects/trekking_test_ws/install/trekking/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/caldo/Projects/TREKKING_ROS2_WS/install/trekking/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/caldo/Projects/trekking_test_ws/install/trekking/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/caldo/Projects/TREKKING_ROS2_WS/install/trekking/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/caldo/Projects/trekking_test_ws/install/trekking/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/caldo/Projects/TREKKING_ROS2_WS/install/trekking/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/caldo/Projects/trekking_test_ws/install/trekking/${destination}")
+      set(destination "/home/caldo/Projects/TREKKING_ROS2_WS/install/trekking/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -311,46 +311,46 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install(DIRECTORY "config" "description" "launch" "DESTINATION" "share/trekking")
-ament_cmake_symlink_install_directory("/home/caldo/Projects/trekking_test_ws/src/trekking" DIRECTORY "config" "description" "launch" "DESTINATION" "share/trekking")
+ament_cmake_symlink_install_directory("/home/caldo/Projects/TREKKING_ROS2_WS/src/trekking" DIRECTORY "config" "description" "launch" "DESTINATION" "share/trekking")
 
-# install(FILES "/home/caldo/Projects/trekking_test_ws/build/trekking/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/trekking" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/caldo/Projects/trekking_test_ws/src/trekking" FILES "/home/caldo/Projects/trekking_test_ws/build/trekking/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/trekking" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/trekking/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/trekking" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/caldo/Projects/TREKKING_ROS2_WS/src/trekking" FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/trekking/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/trekking" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/caldo/Projects/trekking_test_ws/build/trekking/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/trekking" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/caldo/Projects/trekking_test_ws/src/trekking" FILES "/home/caldo/Projects/trekking_test_ws/build/trekking/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/trekking" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/trekking/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/trekking" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/caldo/Projects/TREKKING_ROS2_WS/src/trekking" FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/trekking/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/trekking" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/trekking/environment")
-ament_cmake_symlink_install_files("/home/caldo/Projects/trekking_test_ws/src/trekking" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/trekking/environment")
+ament_cmake_symlink_install_files("/home/caldo/Projects/TREKKING_ROS2_WS/src/trekking" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/trekking/environment")
 
-# install(FILES "/home/caldo/Projects/trekking_test_ws/build/trekking/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/trekking/environment")
-ament_cmake_symlink_install_files("/home/caldo/Projects/trekking_test_ws/src/trekking" FILES "/home/caldo/Projects/trekking_test_ws/build/trekking/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/trekking/environment")
+# install(FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/trekking/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/trekking/environment")
+ament_cmake_symlink_install_files("/home/caldo/Projects/TREKKING_ROS2_WS/src/trekking" FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/trekking/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/trekking/environment")
 
 # install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/trekking/environment")
-ament_cmake_symlink_install_files("/home/caldo/Projects/trekking_test_ws/src/trekking" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/trekking/environment")
+ament_cmake_symlink_install_files("/home/caldo/Projects/TREKKING_ROS2_WS/src/trekking" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/trekking/environment")
 
-# install(FILES "/home/caldo/Projects/trekking_test_ws/build/trekking/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/trekking/environment")
-ament_cmake_symlink_install_files("/home/caldo/Projects/trekking_test_ws/src/trekking" FILES "/home/caldo/Projects/trekking_test_ws/build/trekking/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/trekking/environment")
+# install(FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/trekking/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/trekking/environment")
+ament_cmake_symlink_install_files("/home/caldo/Projects/TREKKING_ROS2_WS/src/trekking" FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/trekking/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/trekking/environment")
 
-# install(FILES "/home/caldo/Projects/trekking_test_ws/build/trekking/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/trekking")
-ament_cmake_symlink_install_files("/home/caldo/Projects/trekking_test_ws/src/trekking" FILES "/home/caldo/Projects/trekking_test_ws/build/trekking/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/trekking")
+# install(FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/trekking/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/trekking")
+ament_cmake_symlink_install_files("/home/caldo/Projects/TREKKING_ROS2_WS/src/trekking" FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/trekking/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/trekking")
 
-# install(FILES "/home/caldo/Projects/trekking_test_ws/build/trekking/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/trekking")
-ament_cmake_symlink_install_files("/home/caldo/Projects/trekking_test_ws/src/trekking" FILES "/home/caldo/Projects/trekking_test_ws/build/trekking/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/trekking")
+# install(FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/trekking/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/trekking")
+ament_cmake_symlink_install_files("/home/caldo/Projects/TREKKING_ROS2_WS/src/trekking" FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/trekking/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/trekking")
 
-# install(FILES "/home/caldo/Projects/trekking_test_ws/build/trekking/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/trekking")
-ament_cmake_symlink_install_files("/home/caldo/Projects/trekking_test_ws/src/trekking" FILES "/home/caldo/Projects/trekking_test_ws/build/trekking/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/trekking")
+# install(FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/trekking/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/trekking")
+ament_cmake_symlink_install_files("/home/caldo/Projects/TREKKING_ROS2_WS/src/trekking" FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/trekking/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/trekking")
 
-# install(FILES "/home/caldo/Projects/trekking_test_ws/build/trekking/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/trekking")
-ament_cmake_symlink_install_files("/home/caldo/Projects/trekking_test_ws/src/trekking" FILES "/home/caldo/Projects/trekking_test_ws/build/trekking/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/trekking")
+# install(FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/trekking/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/trekking")
+ament_cmake_symlink_install_files("/home/caldo/Projects/TREKKING_ROS2_WS/src/trekking" FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/trekking/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/trekking")
 
-# install(FILES "/home/caldo/Projects/trekking_test_ws/build/trekking/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/trekking")
-ament_cmake_symlink_install_files("/home/caldo/Projects/trekking_test_ws/src/trekking" FILES "/home/caldo/Projects/trekking_test_ws/build/trekking/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/trekking")
+# install(FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/trekking/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/trekking")
+ament_cmake_symlink_install_files("/home/caldo/Projects/TREKKING_ROS2_WS/src/trekking" FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/trekking/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/trekking")
 
-# install(FILES "/home/caldo/Projects/trekking_test_ws/build/trekking/ament_cmake_index/share/ament_index/resource_index/packages/trekking" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/caldo/Projects/trekking_test_ws/src/trekking" FILES "/home/caldo/Projects/trekking_test_ws/build/trekking/ament_cmake_index/share/ament_index/resource_index/packages/trekking" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/trekking/ament_cmake_index/share/ament_index/resource_index/packages/trekking" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/caldo/Projects/TREKKING_ROS2_WS/src/trekking" FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/trekking/ament_cmake_index/share/ament_index/resource_index/packages/trekking" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/caldo/Projects/trekking_test_ws/build/trekking/ament_cmake_core/trekkingConfig.cmake" "/home/caldo/Projects/trekking_test_ws/build/trekking/ament_cmake_core/trekkingConfig-version.cmake" "DESTINATION" "share/trekking/cmake")
-ament_cmake_symlink_install_files("/home/caldo/Projects/trekking_test_ws/src/trekking" FILES "/home/caldo/Projects/trekking_test_ws/build/trekking/ament_cmake_core/trekkingConfig.cmake" "/home/caldo/Projects/trekking_test_ws/build/trekking/ament_cmake_core/trekkingConfig-version.cmake" "DESTINATION" "share/trekking/cmake")
+# install(FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/trekking/ament_cmake_core/trekkingConfig.cmake" "/home/caldo/Projects/TREKKING_ROS2_WS/build/trekking/ament_cmake_core/trekkingConfig-version.cmake" "DESTINATION" "share/trekking/cmake")
+ament_cmake_symlink_install_files("/home/caldo/Projects/TREKKING_ROS2_WS/src/trekking" FILES "/home/caldo/Projects/TREKKING_ROS2_WS/build/trekking/ament_cmake_core/trekkingConfig.cmake" "/home/caldo/Projects/TREKKING_ROS2_WS/build/trekking/ament_cmake_core/trekkingConfig-version.cmake" "DESTINATION" "share/trekking/cmake")
 
-# install(FILES "/home/caldo/Projects/trekking_test_ws/src/trekking/package.xml" "DESTINATION" "share/trekking")
-ament_cmake_symlink_install_files("/home/caldo/Projects/trekking_test_ws/src/trekking" FILES "/home/caldo/Projects/trekking_test_ws/src/trekking/package.xml" "DESTINATION" "share/trekking")
+# install(FILES "/home/caldo/Projects/TREKKING_ROS2_WS/src/trekking/package.xml" "DESTINATION" "share/trekking")
+ament_cmake_symlink_install_files("/home/caldo/Projects/TREKKING_ROS2_WS/src/trekking" FILES "/home/caldo/Projects/TREKKING_ROS2_WS/src/trekking/package.xml" "DESTINATION" "share/trekking")

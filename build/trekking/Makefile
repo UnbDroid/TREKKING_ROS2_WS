@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/caldo/Projects/trekking_test_ws/src/trekking
+CMAKE_SOURCE_DIR = /home/caldo/Projects/TREKKING_ROS2_WS/src/trekking
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/caldo/Projects/trekking_test_ws/build/trekking
+CMAKE_BINARY_DIR = /home/caldo/Projects/TREKKING_ROS2_WS/build/trekking
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/caldo/Projects/trekking_test_ws/build/trekking/CMakeFiles /home/caldo/Projects/trekking_test_ws/build/trekking//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/caldo/Projects/TREKKING_ROS2_WS/build/trekking/CMakeFiles /home/caldo/Projects/TREKKING_ROS2_WS/build/trekking//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/caldo/Projects/trekking_test_ws/build/trekking/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/caldo/Projects/TREKKING_ROS2_WS/build/trekking/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
