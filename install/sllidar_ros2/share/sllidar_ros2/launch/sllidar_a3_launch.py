@@ -1,1 +1,0 @@
-/home/caldo/Projects/TREKKING_ROS2_WS/src/sllidar_ros2/launch/sllidar_a3_launch.py

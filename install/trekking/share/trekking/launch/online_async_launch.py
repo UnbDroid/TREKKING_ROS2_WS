@@ -1,1 +1,0 @@
-/home/caldo/Projects/TREKKING_ROS2_WS/src/trekking/launch/online_async_launch.py
