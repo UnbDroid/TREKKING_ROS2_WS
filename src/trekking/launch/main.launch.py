@@ -9,7 +9,7 @@ from ament_index_python.packages import get_package_share_directory
 
 def generate_launch_description():
     # Use simulation time
-    use_sim_time = LaunchConfiguration('use_sim_time', default='true')
+    use_sim_time = LaunchConfiguration('use_sim_time', default='false')
 
     # Get package paths
     pkg_path = get_package_share_directory('trekking')
@@ -78,17 +78,12 @@ def generate_launch_description():
     )
     
     # Localization Node (amcl stuff)
+    map_file = os.path.join(pkg_path, 'maps', 'map.yaml')
     amcl_node = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(pkg_path, 'launch', 'localization_launch.py')
         ),
-        launch_arguments={
-            'namespace': '',
-            'map': '/home/caldo/Projects/trekking_test_ws/teste.yaml',
-            'use_sim_time': use_sim_time,
-            'autostart': 'true',
-            'params_file': os.path.join(pkg_path, 'config', 'nav2_params.yaml')
-        }.items()
+        launch_arguments={'map': map_file, 'use_sim_time': use_sim_time, 'params_file': nav2_params_file}.items()
     )
 
     # Run rviz2
@@ -114,7 +109,7 @@ def generate_launch_description():
         lidar_node,
         rf2o_node,
         nav2_node,
-        slam_toolbox_node,
+        # slam_toolbox_node,
         # amcl_node,
         rviz_node
     ])
