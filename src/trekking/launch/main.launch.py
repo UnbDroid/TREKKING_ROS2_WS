@@ -13,6 +13,7 @@ def generate_launch_description():
 
     # Get package paths
     pkg_path = get_package_share_directory('trekking')
+    nav2_path = get_package_share_directory('nav2_bringup')
     rf2o_path = get_package_share_directory('rf2o_laser_odometry')
     slam_toolbox_pkg_path = get_package_share_directory('slam_toolbox')
     lidar_pkg_path = get_package_share_directory('sllidar_ros2')
@@ -78,12 +79,11 @@ def generate_launch_description():
     )
     
     # Localization Node (amcl stuff)
-    map_file = os.path.join(pkg_path, 'maps', 'map.yaml')
     amcl_node = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
-            os.path.join(pkg_path, 'launch', 'localization_launch.py')
+            os.path.join(nav2_path, 'launch', 'localization_launch.py')
         ),
-        launch_arguments={'map': map_file, 'use_sim_time': use_sim_time, 'params_file': nav2_params_file}.items()
+        launch_arguments={'map': './src/trekking/maps/map.yaml', 'use_sim_time': use_sim_time, 'params_file': nav2_params_file}.items()
     )
 
     # Run rviz2
@@ -109,7 +109,7 @@ def generate_launch_description():
         lidar_node,
         rf2o_node,
         nav2_node,
-        # slam_toolbox_node,
+        slam_toolbox_node,
         # amcl_node,
         rviz_node
     ])
