@@ -1,0 +1,24 @@
+# Pastas geradas pelo processo de compilação do ROS 2
+build/
+install/
+log/
+
+# Diretório do Git (essencial para ignorar)
+.git/
+
+# Arquivos de cache do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Arquivos de backup comuns de editores
+*~
+*.swp
+*.swo
+
+# Configurações de IDEs comuns
+.vscode/
+.idea/
+.project
+.cproject
+.settings/
