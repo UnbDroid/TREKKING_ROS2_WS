@@ -4,9 +4,7 @@
 [submodule "src/rf2o_laser_odometry"]
 	path = src/rf2o_laser_odometry
 	url = https://github.com/MAPIRlab/rf2o_laser_odometry.git
-[submodule "src/sllidar_ros2"]
-	path = src/sllidar_ros2
-	url = https://github.com/Slamtec/sllidar_ros2.git
 [submodule "src/rplidar_ros"]
 	path = src/rplidar_ros
-	url = https://github.com/Slamtec/rplidar_ros/tree/ros2
+	url = https://github.com/Slamtec/rplidar_ros.git
+	branch = ros2
