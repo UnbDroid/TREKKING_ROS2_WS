@@ -16,7 +16,7 @@ def generate_launch_description():
     nav2_path = get_package_share_directory('nav2_bringup')
     rf2o_path = get_package_share_directory('rf2o_laser_odometry')
     slam_toolbox_pkg_path = get_package_share_directory('slam_toolbox')
-    lidar_pkg_path = get_package_share_directory('sllidar_ros2')
+    lidar_pkg_path = get_package_share_directory('rplidar_ros')
 
     # Robot State Publisher
     xacro_file = os.path.join(pkg_path, 'description', 'robot_core.urdf.xacro')
@@ -47,7 +47,7 @@ def generate_launch_description():
     # LiDAR Node
     lidar_node = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
-            os.path.join(lidar_pkg_path, 'launch', 'sllidar_s2_launch.py')
+            os.path.join(lidar_pkg_path, 'launch', 'rplidar_s2_launch.py')
         ),
         launch_arguments={'frame_id': 'laser_frame'}.items()
     )
@@ -105,11 +105,11 @@ def generate_launch_description():
             description='Use simulation time if true'
         ),
         robot_state_publisher_node,
-       joint_state_publisher_node,
+        joint_state_publisher_node,
         lidar_node,
         rf2o_node,
         nav2_node,
-        slam_toolbox_node,
-        # amcl_node,
+        #slam_toolbox_node,
+        amcl_node,
         rviz_node
     ])
