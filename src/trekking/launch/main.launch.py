@@ -109,7 +109,7 @@ def generate_launch_description():
         lidar_node,
         rf2o_node,
         nav2_node,
-        #slam_toolbox_node,
-        amcl_node,
+        slam_toolbox_node,
+        #amcl_node,
         rviz_node
     ])
