@@ -105,7 +105,7 @@ def generate_launch_description():
             description='Use simulation time if true'
         ),
         robot_state_publisher_node,
-        joint_state_publisher_node,
+       joint_state_publisher_node,
         lidar_node,
         rf2o_node,
         nav2_node,
