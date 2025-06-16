@@ -66,7 +66,7 @@ def generate_launch_description():
         PythonLaunchDescriptionSource(
             os.path.join(pkg_path, 'launch', 'navigation_launch.py')
         ),
-        launch_arguments={'params_file': nav2_params_file, 'use_sim_time': 'false'}.items()
+        launch_arguments={'params_file': nav2_params_file, 'use_sim_time': 'false', 'on_composition': 'True'}.items()
     )
 
     # SLAM Toolbox Node
@@ -83,7 +83,7 @@ def generate_launch_description():
         PythonLaunchDescriptionSource(
             os.path.join(nav2_path, 'launch', 'localization_launch.py')
         ),
-        launch_arguments={'map': './src/trekking/maps/map.yaml', 'use_sim_time': use_sim_time, 'params_file': nav2_params_file}.items()
+        launch_arguments={'map': './src/trekking/maps/map.yaml', 'use_sim_time': use_sim_time, 'params_file': nav2_params_file, 'on_composition': 'True'}.items()
     )
 
     # Run rviz2
@@ -109,7 +109,7 @@ def generate_launch_description():
         lidar_node,
         rf2o_node,
         nav2_node,
-        slam_toolbox_node,
-        #amcl_node,
+        # slam_toolbox_node,
+        amcl_node,
         rviz_node
     ])
