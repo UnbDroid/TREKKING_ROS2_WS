@@ -6,7 +6,7 @@ import time
 import threading
 
 GPIO_CHIP = 'gpiochip4'
-LED_PIN = 17
+LED_PIN = 22
 
 class GoalStatusMonitorNode(Node):
     def __init__(self):
